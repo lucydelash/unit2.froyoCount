@@ -9,7 +9,7 @@ const flavorCounts = {};
 
 // Count how many scoops of each flavor
 flavors.forEach(function(flavor) {
-    flavor = flavor.trim(); // Removing leading/trailing spaces
+    flavor = flavor.trim();
     if (flavor in flavorCounts) {
         flavorCounts[flavor]++;
     } else {
